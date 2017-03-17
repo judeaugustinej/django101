@@ -7,6 +7,7 @@ Describes the basics steps required to get a django-app up and running.
  Make sure django is installed
 ```
 pip install django
+pip install psycopg2
 ```
 Create a django project
 ```
@@ -50,6 +51,19 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app.apps.CatalogConfig',
 ]
+```
+Database setup for postgres
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'db_name',                      
+        'USER': 'db_user',
+        'PASSWORD': 'db_user_password',
+        'HOST': '',
+        'PORT': 'db_port_number',
+    }
+}
 ```
 Run migrations and start the development server
 ```
