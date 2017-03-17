@@ -20,6 +20,17 @@ vi .bowerrc
 bower install bootstrap
 ```
 
+* Usage in templates
+
+```
+<html>
+<head>
+    <script src="/static/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="/static/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap-theme.min.css">
+</head>
+```
 * More Refer the docs.
 
 ```
