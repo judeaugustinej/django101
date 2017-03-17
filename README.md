@@ -39,6 +39,17 @@ project/
 ```
 Include the create app in the main settings
 ```
+vi project/app.py
+
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'app.apps.CatalogConfig',
+]
 ```
 Run migrations and start the development server
 ```
