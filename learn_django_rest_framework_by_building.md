@@ -12,6 +12,12 @@ https://www.quora.com/profile/Ashish-Gupta-165
 
 https://tests4geeks.com/django-rest-framework-tutorial/
 
+https://github.com/lobrown/Full-Stack-Foundations
+
+https://github.com/allanbreyes/udacity-full-stack
+
+https://github.com/udacity/APIs
+
 
 cool projects
 https://github.com/Seedstars/django-react-redux-base
