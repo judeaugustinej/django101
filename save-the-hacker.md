@@ -17,3 +17,7 @@ https://simpleisbetterthancomplex.com/tutorial/2016/07/22/how-to-extend-django-u
 
 - Django field types ?
 https://docs.djangoproject.com/en/1.11/ref/models/fields/#model-field-types
+
+
+- Login Page Design
+https://simpleisbetterthancomplex.com/tutorial/2016/06/27/how-to-use-djangos-built-in-login-system.html
